@@ -1,0 +1,35 @@
+/* App.css */
+
+/* Custom Keyframes for Typing and Blinking Cursor */
+@keyframes typing {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
+  }
+  
+  /* Custom Classes for the Animation */
+  .animate-typing {
+    animation: typing 4s steps(30, end) forwards;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    width: 20ch; /* Adjust this based on text length */
+  }
+  
+  .animate-blink {
+    animation: blink 0.6s step-end infinite;
+    border-right: 2px solid black;
+  }
+  
