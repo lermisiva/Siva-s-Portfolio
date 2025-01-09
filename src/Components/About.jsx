@@ -2,10 +2,10 @@ import "./Styles/Animation.css";
 
 export function About() {
   return (
-    <div id="about" className="pt-14 pb-14">
+    <div id="about" className="pt-14 pb-14 ">
       <div className="border border-red-300 shadow-lg mx-10 my-10">
       <p className="flex justify-center font-semibold text-xl">About Me</p>
-      <div className="w-[1200px]  mx-20  side-fade-in flex ">
+      <div className="max-w-screen-lg  mx-20  side-fade-in flex ">
         <div className="w-1/2 px-5 py-10">
           <img className="w-96 h-96 rounded-2xl " src="./src/assets/image/about me.webp"></img>
         </div>

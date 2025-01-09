@@ -7,7 +7,7 @@ export function Home() {
         <div className="text-2xl font-sans">
           <div className="animate-typing lg:text-4xl text-[20px]">
             Hi, Welcome to My Portfolio this is{" "}
-            <span className="lg:text-7xl text-sm text-orange-950 font-semibold mx-2 font-mono">
+            <span className="lg:text-7xl text-sm text-orange-950 font-extralight  mx-2 font-mono">
               SIVABALAN S .
             </span>
           </div>
@@ -17,7 +17,7 @@ export function Home() {
 
       <div className="flex justify-center h-full mt-5">
         <div className="text-2xl font-sans">
-          <div className="animate-typing lg:text-2xl text-sm">
+          <div className="animate-typing lg:text-2xl text-sm text-slate-700">
             Front End Developer
           </div>
         </div>

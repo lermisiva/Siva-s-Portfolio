@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 import { Nav } from './Components/Nav';
 import { Home } from './Components/Home';
 import { About } from './Components/About';
