@@ -8,11 +8,11 @@ export function About() {
       <div className="lg:max-w-screen-lg  lg:mx-20  side-fade-in lg:flex ">
         {/*mobile view */}
         <div className="lg:w-1/2 lg:px-5 lg:py-10 pt-10 flex justify-center lg:hidden ">
-          <img className="lg:w-96 lg:h-96 w-[300px] h-[300px] rounded-2xl scroll-mobile " src="/public/image/about me.png" alt="About"></img>
+          <img className="lg:w-96 lg:h-96 w-[300px] h-[300px] rounded-2xl scroll-mobile " src="/image/about me.png" alt="About"></img>
         </div>
         {/*laptop view */}
         <div className="lg:w-1/2 lg:px-5 lg:py-10 pt-10 lg:block hidden">
-          <img className="lg:w-96 lg:h-96 w-[300px] h-[300px] rounded-2xl scroll-left " src="/src/assets/image/about me.webp"></img>
+          <img className="lg:w-96 lg:h-96 w-[300px] h-[300px] rounded-2xl scroll-left " src="/image/about me.png"></img>
         </div>
         <div className="lg:w-1/2 pt-12 scroll-bottom">
           <ul>
