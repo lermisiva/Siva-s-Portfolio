@@ -2,7 +2,7 @@ import "./Styles/Animation.css";
 
 export function About() {
   return (
-    <div id="about" className="lg:pt-14 lg:pb-14 ">
+    <div id="about" className="lg:pt-14 lg:pb-14 pt-0">
       <div className="border border-red-400 shadow-lg lg:mx-10 mx-5 my-10">
       <p className="flex justify-center font-semibold text-xl ">About Me</p>
       <div className="lg:max-w-screen-lg  lg:mx-20  side-fade-in lg:flex ">

@@ -2,7 +2,7 @@ import "./Styles/Animation.css"; // Import the CSS file
 
 export function Home() {
   return (
-    <div id="home" className="lg:pb-28 min-h-screen">
+    <div id="home" className="lg:pb-28 min-h-screen pt-40">
       {/* Main Header */}
       <div className="lg:flex justify-center items-center h-full pt-[200px] hidden">
         <div className="text-2xl font-sans">
