@@ -8,7 +8,7 @@ export function About() {
       <div className="lg:max-w-screen-lg  lg:mx-20  side-fade-in lg:flex ">
         {/*mobile view */}
         <div className="lg:w-1/2 lg:px-5 lg:py-10 pt-10 flex justify-center lg:hidden ">
-          <img className="lg:w-96 lg:h-96 w-[300px] h-[300px] rounded-2xl scroll-mobile " src="/src/assets/image/about me.webp" alt="About"></img>
+          <img className="lg:w-96 lg:h-96 w-[300px] h-[300px] rounded-2xl scroll-mobile " src="/public/image/about me.webp" alt="About"></img>
         </div>
         {/*laptop view */}
         <div className="lg:w-1/2 lg:px-5 lg:py-10 pt-10 lg:block hidden">
