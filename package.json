@@ -1,9 +1,9 @@
 {
-  "name": "Siva-s-Portfolio",
+  "name": "sivabalan_s_portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://lermisiva.github.io/Siva-s-Portfolio",
+  "homepage": "https://yourdomain.netlify.app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
