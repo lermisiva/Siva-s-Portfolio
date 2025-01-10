@@ -32,7 +32,7 @@ export function Skills() {
 
   return (
     <motion.div
-      className=" text-red-950 text-center  pt-20 min-h-[20vh]"
+      className=" text-red-950 text-center  pt-20 min-h-[20vh] "
       id="skills"
       initial="hidden"
       animate="visible"
@@ -43,7 +43,7 @@ export function Skills() {
         {skillsData.map((skill) => (
           <motion.div
             key={skill.id}
-            className="flex items-center mb-6 transition-transform transform hover:scale-105"
+            className="scroll-left flex items-center mb-6 transition-transform transform hover:scale-105"
             variants={itemVariants}
           >
             <span className="text-sm font-bold text-red-300 w-32 text-left uppercase">

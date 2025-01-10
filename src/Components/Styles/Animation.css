@@ -1,19 +1,59 @@
-/* About.css */
+/* Typing Animation */
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
 
-/* Keyframe for spin fade-in effect */
-@keyframes spin-fade-in {
-    from {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0) rotate(0);
-    }
+@keyframes blink {
+  0%, 100% {
+    border-color: transparent;
   }
-  
-  /* Custom class for spin-fade-in animation */
-  .spin-fade-in {
-    animation: spin-fade-in 1s ease-out forwards;
+  50% {
+    border-color: black;
   }
-  
+}
+
+/* Custom Classes for the Animation */
+.animate-typing {
+  animation: typing 4s steps(30, end) forwards;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  width: 20ch; /* Adjust this based on text length */
+}
+
+.animate-blink {
+  animation: blink 0.6s step-end infinite;
+  border-right: 2px solid black;
+}
+
+/* Scale effect */
+.scroll-top {
+  opacity: 0;
+  transform: translatex(300px); /* Start 300px below */
+  transition: all 0.75s ease-out; /* Smooth transition over 2 seconds */
+}
+
+/* Slide from the bottom */
+.scroll-bottom {
+  opacity: 0;
+  transform: translateY(300px); /* Start 300px below */
+  transition: all 0.75s ease-out; /* Smooth transition over 1 second */
+}
+
+/* Slide from the left */
+.scroll-left {
+  opacity: 0;
+  transform: translateX(300px); /* Start 300px to the left */
+  transition: all 0.75s ease-out; /* Smooth transition over 1 second */
+}
+
+/* When visible in the viewport, add the animation */
+.show-items {
+  opacity: 1; /* Fade in */
+  transform: translateX(0) scale(1); /* Return to normal size and position */
+}
