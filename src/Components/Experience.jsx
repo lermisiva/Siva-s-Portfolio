@@ -10,7 +10,7 @@ export function Experience() {
       
       <div className="w-[900px]  mx-20  side-fade-in flex  border border-red-300 shadow-lg  my-10">
         <div className="w-1/2 px-5 py-10">
-          <img className="w-60 h-60 rounded-2xl" src="./src/assets/image/cocoonsoftware_logo.jpeg"></img>
+          <img className="w-60 h-60 rounded-2xl" src="/image/cocoonsoftware_logo.png"></img>
         </div>
         <div className="w-1/2 pt-12">
           <ul>

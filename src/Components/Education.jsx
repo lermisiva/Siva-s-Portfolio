@@ -8,11 +8,11 @@ export function Education() {
       <div className="max-w-screen-lg  lg:mx-20  side-fade-in lg:flex ">
         {/*mobile view */}
         <div className="lg:w-1/2 lg:px-5 lg:py-10 pt-10 flex justify-center lg:hidden ">
-          <img className="lg:w-96 lg:h-96 w-[300px] h-[300px] rounded-2xl scroll-mobile" src="./src/assets/image/Education.webp"></img>
+          <img className="lg:w-96 lg:h-96 w-[300px] h-[300px] rounded-2xl scroll-mobile" src="/image/Education.png"></img>
         </div>
           {/*laptop view */}
         <div className="lg:w-1/2 lg:px-5 lg:py-10 pt-10 lg:block hidden">
-          <img className="lg:w-96 lg:h-96 w-[300px] h-[300px] rounded-2xl scroll-left" src="./src/assets/image/Education.webp"></img>
+          <img className="lg:w-96 lg:h-96 w-[300px] h-[300px] rounded-2xl scroll-left" src="/image/Education.png"></img>
         </div>
         <div className="lg:w-1/2 lg:pt-10 py-10 lg:py-0 px-5 lg:px-10 scroll-bottom">
           <ul>
