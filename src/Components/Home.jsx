@@ -47,7 +47,7 @@ export function Home() {
       <div className="mt-5 flex justify-center">
         <a
           className="p-2 rounded-2xl border border-red-950 bg-red-950 font-semibold text-red-300 hover:bg-red-300 hover:text-red-950"
-          href="/assets/Sivabalan Resume.pdf" // Ensure the resume is in public/assets folder
+          href="/Sivabalan Resume.pdf" // Ensure the resume is in public/assets folder
           download={"Sivabalan.pdf"}
         >
           Resume
