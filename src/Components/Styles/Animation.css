@@ -41,7 +41,7 @@
 /* Slide from the bottom */
 .scroll-bottom {
   opacity: 0;
-  transform: translateY(300px); /* Start 300px below */
+  transform: translateY(200px); /* Start 300px below */
   transition: all 0.75s ease-out; /* Smooth transition over 1 second */
 }
 
