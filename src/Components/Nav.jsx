@@ -1,6 +1,6 @@
 export function Nav() {
     return <div className="" >
-       <nav className="top-0 left-0 container max-w-full bg-red-300 h-20 border-red-300 shadow-md border ">
+       <nav className="top-0 left-0 container lg:max-w-full w-screen bg-red-300 h-20 border-red-300 shadow-md border ">
            <ul className="lg:flex  justify-center hidden ">
             <li className="text-red-950 font-semibold text-xl p-4">
                 <a href="#home">Home</a>

@@ -2,11 +2,11 @@ import "./Styles/Animation.css"; // Import the CSS file
 
 export function Home() {
   return (
-    <div id="home" className="pb-28 min-h-screen">
+    <div id="home" className="lg:pb-28 min-h-screen">
       {/* Main Header */}
-      <div className="flex justify-center items-center h-full pt-[200px]">
+      <div className="lg:flex justify-center items-center h-full pt-[200px] hidden">
         <div className="text-2xl font-sans">
-          <div className="animate-typing lg:text-4xl text-[20px]">
+          <div className="animate-typing lg:text-4xl">
             Hi, Welcome to My Portfolio this is{" "}
             <span className="lg:text-7xl text-sm text-orange-950 font-extralight mx-2 font-mono">
               SIVABALAN S .
@@ -14,9 +14,28 @@ export function Home() {
           </div>
         </div>
       </div>
+      {/* Main Header Mobile view*/}
+      <div className="flex justify-center items-center h-full pt-[100px] lg:hidden">
+        <div className="text-2xl font-sans">
+          <div className="animate-typing lg:text-4xl">
+            Hi, Welcome to My Portfolio {" "}
+            
+          </div>
+        </div>
+      </div>
+      <div className="flex justify-center items-center h-full lg:hidden ">
+        <div className="text-2xl font-sans">
+          <div className="animate-typing lg:text-4xl">
+            this is {" "}
+            <span className="lg:text-7xl text-normal text-orange-950 font-extralight mx-2 font-mono">
+             SIVABALAN S .
+            </span>
+          </div>
+        </div>
+      </div>
 
       {/* Subheader */}
-      <div className="flex justify-center items-center h-full mt-5">
+      <div className="flex justify-center items-center h-full lg:mt-5">
         <div className="text-2xl font-sans">
           <div className="animate-typing lg:text-2xl text-sm text-slate-700">
             Front End Developer
