@@ -37,7 +37,6 @@
   transform: translatex(300px); /* Start 300px below */
   transition: all 0.75s ease-out; /* Smooth transition over 2 seconds */
 }
-
 /* Slide from the bottom */
 .scroll-bottom {
   opacity: 0;
@@ -45,6 +44,12 @@
   transition: all 0.75s ease-out; /* Smooth transition over 1 second */
 }
 
+/* Slide from the left */
+.scroll-right {
+  opacity: 0;
+  transform: translatex(-400px); /* Start 300px to the left */
+  transition: all 0.75s ease-out; /* Smooth transition over 1 second */
+}
 /* Slide from the left */
 .scroll-left {
   opacity: 0;
@@ -61,4 +66,15 @@
 .show-items {
   opacity: 1; /* Fade in */
   transform: translateX(0) scale(1); /* Return to normal size and position */
+}
+/* Skills container animation */
+.skills-container {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+/* Skill items anim
+
+/* Skill bar fill animation */
+.skill-fill {
+  transition: width 1s ease;
 }

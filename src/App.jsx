@@ -23,7 +23,8 @@ function App() {
 
     // Elements to observe
     const elementsToObserve = [
-      ".scroll-scale", ".scroll-bottom", ".scroll-left",".animate-typing",".animate-blink",".scroll-mobile"
+      ".scroll-scale", ".scroll-bottom", ".scroll-left",".animate-typing",".animate-blink",".scroll-mobile",
+      ".scroll-fade"
     ];
 
     // Attach observer to elements

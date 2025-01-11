@@ -18,7 +18,7 @@ export function Experience() {
             <img className="w-60 h-60 rounded-2xl scroll-mobile" src="/image/cocoonsoftware_logo.png"></img>
           </div>
           <div className="lg:w-1/2 lg:pt-12 pt-5 scroll-bottom">
-            <ul>
+            <ul className="mx-5">
               <li className="lg:text-3xl text-2xl font-sans text-red-950 font-semibold">Front-End Developer Intern</li>
               <li className="pt-1 font-semibold text-slate-600">Cocoon Software</li>
               <li className="py-2 font-semibold">Contributed to building a responsive website using HTML, Tailwind CSS, and JavaScript. Created clean, user-friendly designs optimized for mobile devices.</li>
