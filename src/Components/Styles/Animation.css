@@ -47,7 +47,7 @@
 /* Slide from the left */
 .scroll-right {
   opacity: 0;
-  transform: translatex(-400px); /* Start 300px to the left */
+  transform: translatex(-50px); /* Start 300px to the left */
   transition: all 0.75s ease-out; /* Smooth transition over 1 second */
 }
 /* Slide from the left */
