@@ -10,11 +10,14 @@ export function Experience() {
 
         <div className="lg:w-[900px] max-w-screen-lg lg:mx-20 mx-10  side-fade-in lg:flex  border border-red-300 shadow-xl  my-10">
           {/*Mobile View*/}
-          <div className="lg:w-1/2 px-5 py-10 flex justify-center">
+          <div className="lg:w-1/2 px-5 py-5 flex justify-center lg:hidden">
             <img className="w-60 h-60 rounded-2xl scroll-mobile" src="/image/cocoonsoftware_logo.png"></img>
           </div>
             {/*Laptop View*/}
-          <div className="lg:w-1/2 pt-12 scroll-bottom">
+            <div className="lg:w-1/2 px-5 py-10 lg:block  hidden">
+            <img className="w-60 h-60 rounded-2xl scroll-mobile" src="/image/cocoonsoftware_logo.png"></img>
+          </div>
+          <div className="lg:w-1/2 lg:pt-12 pt-5 scroll-bottom">
             <ul>
               <li className="lg:text-3xl text-2xl font-sans text-red-950 font-semibold">Front-End Developer Intern</li>
               <li className="pt-1 font-semibold text-slate-600">Cocoon Software</li>
