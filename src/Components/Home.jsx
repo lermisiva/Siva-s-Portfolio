@@ -4,7 +4,7 @@ export function Home() {
   return (
     <div id="home" className="lg:pb-28 min-h-screen pt-40">
       {/* Main Header */}
-      <div className="lg:flex justify-center items-center h-full pt-[200px] hidden">
+      <div className="lg:flex justify-center items-center h-full pt-[50px] hidden">
         <div className="text-2xl font-sans">
           <div className="animate-typing lg:text-4xl">
             Hi, Welcome to My Portfolio this is{" "}
