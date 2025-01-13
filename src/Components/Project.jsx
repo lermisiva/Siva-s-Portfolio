@@ -42,7 +42,7 @@ export function Project() {
 
         {/* Project 2 */}
         <div
-          className="group relative w-72 h-48 bg-[url('./Gd.png')] bg-cover rounded-xl shadow-lg overflow-hidden scroll-item"
+          className="group relative w-72 h-48  project-2 bg-cover rounded-xl shadow-lg overflow-hidden scroll-item"
         >
           {/* Gradient Background */}
           <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-green-500 to-teal-500 opacity-50"></div>

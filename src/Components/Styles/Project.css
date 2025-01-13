@@ -17,4 +17,8 @@
     opacity: 0;
     transition: opacity 0.5s ease-out;
   }
-  
+
+  .project-2{
+    background-image: url("/public/Gd.png");
+    background-size: cover;
+  }
