@@ -28,8 +28,9 @@ export function Project() {
       <h1 className="text-2xl font-semibold text-center mb-8">Projects</h1>
       <div className="lg:flex flex-wrap justify-center lg:gap-8 ">
         {/* Project 1 */}
+        <div className="flex justify-center lg:flex-none">
         <div
-          className="group relative w-72 h-48  portfolio bg-cover rounded-xl shadow-lg overflow-hidden scroll-item mx-16 my-10 lg:my-0 lg:mx-0"
+          className="group relative w-72 h-48  portfolio bg-cover rounded-xl shadow-lg overflow-hidden scroll-item "
         >
           {/* Gradient Background */}
           <div className="absolute inset-0 bg-gradient-to-r from-red-300 via-red-500 to-red-950 opacity-50"></div>
@@ -42,10 +43,12 @@ export function Project() {
             </div>
           </div>
         </div>
+        </div>
 
         {/* Project 2 */}
+        <div className="flex justify-center lg:flex-none my-20 lg:my-0">
         <div
-          className="group relative w-72 h-48  gd bg-cover rounded-xl shadow-lg overflow-hidden scroll-item mx-16 my-10 lg:my-0 lg:mx-0"
+          className="group relative w-72 h-48  gd bg-cover rounded-xl shadow-lg overflow-hidden scroll-item "
         >
           {/* Gradient Background */}
           <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-green-500 to-teal-500 opacity-50"></div>
@@ -60,10 +63,12 @@ export function Project() {
             </div>
           </div>
         </div>
+        </div>
 
         {/* Project 3 */}
+        <div className="flex justify-center lg:flex-none" >
         <div
-          className="group relative w-72 h-48 intern  rounded-xl shadow-lg overflow-hidden scroll-item mx-16 lg:mx-0 my-10 lg:my-0"
+          className="group relative w-72 h-48 intern  rounded-xl shadow-lg overflow-hidden scroll-item "
         >
           {/* Gradient Background */}
           <div className="absolute inset-0 bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 opacity-50"></div>
@@ -77,6 +82,7 @@ export function Project() {
               <a href="https://websitetechedufy.netlify.app/" className="text-sm text-white underline mt-2">View Project</a>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </section>
