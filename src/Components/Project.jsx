@@ -71,7 +71,7 @@ export function Project() {
           className="group relative w-72 h-48 intern  rounded-xl shadow-lg overflow-hidden scroll-item "
         >
           {/* Gradient Background */}
-          <div className="absolute inset-0 bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 opacity-50"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-indigo-300 via-blue-500 to-sky-900 opacity-50"></div>
           {/* Hover Effect */}
           <div className="absolute inset-0 bg-gradient-to-br from-blue-700 via-purple-600 to-red-700 bg-opacity-50 transform translate-y-full group-hover:translate-y-0 transition duration-500">
             <div className="absolute inset-0 justify-end p-4 opacity-0 group-hover:opacity-100 transition duration-500">
