@@ -18,7 +18,16 @@
     transition: opacity 0.5s ease-out;
   }
 
-  .project-2{
+  .gd{
     background-image: url("/public/Gd.png");
+    background-size: cover;
+  }
+  .portfolio{
+    background-image: url("/public/S.png");
+    background-size: cover;
+  }
+
+  .intern{
+    background-image: url("/public/techedufy.png");
     background-size: cover;
   }
