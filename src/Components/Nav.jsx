@@ -46,7 +46,7 @@ export function Nav() {
             <a href="#experience">Experience</a>
           </li>
           <li className="text-red-950 font-semibold text-xl p-4">
-            <a href="#projects">Projects</a>
+            <a href="#project">Projects</a>
           </li>
           <li className="text-red-950 font-semibold text-xl p-4">
             <a href="#contact">Contact</a>
@@ -93,7 +93,7 @@ export function Nav() {
             </a>
           </li>
           <li className="text-red-950 font-semibold text-xl">
-            <a href="#projects" onClick={toggleMenu}>
+            <a href="#project" onClick={toggleMenu}>
               Projects
             </a>
           </li>

@@ -25,7 +25,7 @@ export function Project() {
 
   return (
     <section className="py-12">
-      <h1 className="text-2xl font-semibold text-center mb-8">Projects</h1>
+      <h1 id="project"className="text-2xl font-semibold text-center mb-8">Projects</h1>
       <div className="lg:flex flex-wrap justify-center lg:gap-8 ">
         {/* Project 1 */}
         <div className="flex justify-center lg:flex-none">
