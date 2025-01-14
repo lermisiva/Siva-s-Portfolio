@@ -5,7 +5,7 @@ export function Contact () {
           <div className="container mx-auto text-white text-center p-4 scroll-close" id="contact">
             <div className="mb-6 p-6 mx-auto w-full lg:w-3/4">
               <form action="https://api.web3forms.com/submit" method="POST">
-                <h2 className="text-3xl font-bold mb-6 text-red-600">
+                <h2 className="text-3xl font-bold mb-6 text-red-300">
                   Contact <span className="text-red-950">Me</span>
                 </h2>
                 <input type="hidden" name="access_key" value="f2b5a9e9-1168-4af8-b1eb-de673ca0846a" />

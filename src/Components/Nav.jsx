@@ -12,7 +12,7 @@ export function Nav() {
   return (
     <div>
       <nav
-        className="top-0 left-0 container lg:max-w-full w-screen bg-red-300 h-20 border-red-300 shadow-md border flex items-center justify-between"
+        className="top-0 left-0 container lg:max-w-full w-screen bg-transparent h-20 border-red-300 shadow-md border flex items-center justify-between"
         aria-label="Main Navigation"
       >
         {/* Logo or brand name */}
@@ -56,7 +56,7 @@ export function Nav() {
 
       {/* Slide-in menu for mobile view */}
       <div
-        className={`fixed top-0 right-0 h-full w-64 bg-red-300 shadow-lg transform ${
+        className={`fixed top-0 right-0 h-full w-64 bg-transparent shadow-lg transform ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out z-50`}
       >
