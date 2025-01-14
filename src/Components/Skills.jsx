@@ -32,13 +32,13 @@ export function Skills() {
 
   return (
     <motion.div
-      className=" text-red-950 text-center  pt-20 min-h-[20vh] mx-5 lg:mx-auto "
+      className=" text-blue-300 text-center  pt-20 min-h-[20vh] mx-5 lg:mx-auto "
       id="skills"
       initial="hidden"
       animate="visible"
       variants={containerVariants}
     >
-      <h1 className="text-4xl font-semibold mb-6 scroll-left text-blue-300">Skills</h1>
+      <h1 className="text-4xl font-semibold mb-6 scroll-bottom text-blue-300">Skills</h1>
       <div className="max-w-3xl mx-auto bg-slate-500 p-8 rounded-lg shadow-lg scroll-right">
         {skillsData.map((skill) => (
           <motion.div
