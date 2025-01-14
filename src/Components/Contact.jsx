@@ -5,8 +5,8 @@ export function Contact () {
           <div className="container mx-auto text-white text-center p-4 scroll-close" id="contact">
             <div className="mb-6 p-6 mx-auto w-full lg:w-3/4">
               <form action="https://api.web3forms.com/submit" method="POST">
-                <h2 className="text-3xl font-bold mb-6 text-red-300">
-                  Contact <span className="text-red-950">Me</span>
+                <h2 className="text-3xl font-bold mb-6 text-blue-200 scroll-right">
+                  Contact <span className="text-orange-300">Me</span>
                 </h2>
                 <input type="hidden" name="access_key" value="f2b5a9e9-1168-4af8-b1eb-de673ca0846a" />
       
@@ -52,7 +52,8 @@ export function Contact () {
                 <div className="flex justify-center mt-6">
                   <button
                     type="submit"
-                    className="bg-red-950 hover:bg-red-300 border border-red-950 text-red-300 hover:text-red-950 font-bold py-3 px-8 rounded-lg transition"
+                    className="bg-transparent border border-orange-300  text-orange-300
+          hover:text-slate-300 hover:bg-slate-950 hover:border-slate-300 font-bold py-3 px-8 rounded-lg transition"
                   >
                     Send Message
                   </button>

@@ -41,7 +41,7 @@ function App() {
   }, []);
 
   return (
-    <div className='bg-gradient-to-br from-red-300 via-red-300 to-red-00 h-full'>
+    <div className='bg-gradient-to-br from-slate-500 via-slate-600 to-slate-800 h-full'>
       <Nav />
       <Home />
       <About />

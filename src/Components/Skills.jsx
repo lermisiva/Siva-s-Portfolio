@@ -38,24 +38,24 @@ export function Skills() {
       animate="visible"
       variants={containerVariants}
     >
-      <h1 className="text-4xl font-semibold mb-6">Skills</h1>
-      <div className="max-w-3xl mx-auto bg-red-950 p-8 rounded-lg shadow-lg scroll-right">
+      <h1 className="text-4xl font-semibold mb-6 scroll-left text-blue-300">Skills</h1>
+      <div className="max-w-3xl mx-auto bg-slate-500 p-8 rounded-lg shadow-lg scroll-right">
         {skillsData.map((skill) => (
           <motion.div
             key={skill.id}
             className="flex items-center mb-6 transition-transform transform hover:scale-105"
             variants={itemVariants}
           >
-            <span className="text-sm font-bold text-red-300 w-32 text-left uppercase">
+            <span className="text-sm font-bold text-orange-300 w-32 text-left uppercase">
               {skill.skill}
             </span>
-            <div className="flex-1 h-2 bg-red-200 rounded-full mx-4">
+            <div className="flex-1 h-2 bg-lime-200 rounded-full mx-4">
               <div
-                className="h-2 rounded-full bg-red-400 transition-all duration-1000"
+                className="h-2 rounded-full bg-lime-500 transition-all duration-1000"
                 style={{ width: skill.percentage }}
               ></div>
             </div>
-            <span className="text-xs text-red-300">{skill.percentage}</span>
+            <span className="text-xs text-green-300">{skill.percentage}</span>
           </motion.div>
         ))}
       </div>
