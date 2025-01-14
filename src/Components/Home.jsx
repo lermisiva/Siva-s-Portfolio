@@ -44,7 +44,7 @@ export function Home() {
       </div>
 
       {/* Resume Button */}
-      <div className="mt-5 flex justify-center">
+      <div className="mt-5 flex justify-center scroll-bottom">
         <a
           className="p-2 rounded-2xl border border-red-950 bg-red-950 font-semibold text-red-300 hover:bg-red-300 hover:text-red-950"
           href="/Sivabalan Resume.pdf" // Ensure the resume is in public/assets folder
@@ -52,6 +52,16 @@ export function Home() {
         >
           Resume
         </a>
+      </div>
+      <div className="flex justify-center mt-10 scroll-bottom">
+        <ul className="flex ">
+          <li className=""><a className="px-4 py-2 lg:my-0 my-4 text-red-950 font-semibold  bg-red-300 border border-red-950 rounded-2xl mx-5
+          hover:text-red-300 hover:bg-red-950" href="https://github.com/lermisiva">Github</a></li>
+          <li><a className="px-3 py-2 lg:my-0 my-4 text-red-950 font-semibold  bg-red-300 border border-red-950 rounded-2xl mx-5
+          hover:text-red-300 hover:bg-red-950" href="https://www.linkedin.com/in/sivabalan-s-568ba5289/">Linked In</a></li>
+          <li><a className="px-7 py-2 lg:my-0 my-4 text-red-950 font-semibold  bg-red-300 border border-red-950 rounded-2xl mx-5
+          hover:text-red-300 hover:bg-red-950" href="mailto:sivabalan.st.2002@gmail.com">Mail</a></li>
+        </ul>
       </div>
     </div>
   );
